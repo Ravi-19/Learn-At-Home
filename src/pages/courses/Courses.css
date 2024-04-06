@@ -1,0 +1,34 @@
+.CourseContainer{
+    width: 100%;
+    background-color: #f5f4f492;
+}
+.coureses{
+    width: 85%;
+    margin-inline: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.header button {
+    padding:5px 10px;
+    color: rgba(48, 45, 45, 0.895);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.genre{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    color: rgb(46, 45, 45);
+    display: flex;
+    gap: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 0px;
+}

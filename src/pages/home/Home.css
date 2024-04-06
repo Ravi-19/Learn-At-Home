@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    background-color: #f5f4f492;
+}
+.statsContainer{
+    width:85%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
