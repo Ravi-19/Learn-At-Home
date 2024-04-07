@@ -1,10 +1,11 @@
 import { GoArrowRight } from "react-icons/go";
 import StudyCard from "../../components/studycard/StudyCard";
 import "./Courses.css";
+import Footer from '../../components/footer/Footer'
 
 function Courses() {
   return (
-    <>
+    <div>
       <div className="CourseContainer">
         <div className="coureses">
           <div className="header">
@@ -20,7 +21,8 @@ function Courses() {
         </div>
       </div>
       <StudyCard />
-    </>
+      <Footer/>
+    </div>
   );
 }
 

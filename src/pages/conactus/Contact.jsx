@@ -1,4 +1,5 @@
- import './Contact.css'
+ import Footer from '../../components/footer/Footer'
+import './Contact.css'
  
 function Contact() {
   return (
@@ -44,6 +45,7 @@ function Contact() {
        </div>
      </div>
      </div>
+     <Footer/>
    </div>
   )
 }

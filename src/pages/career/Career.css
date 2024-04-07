@@ -12,7 +12,7 @@
     padding-block: 30px;
 }
 
-.Left{
+.careerLeft{
     /* border: 1px solid gray; */
 
     flex: 1;
@@ -23,7 +23,7 @@
     padding-left: 50px ;
 }
 
-.Right{
+.careerRight{
     /* border: 1px solid gray; */
     flex: 2;
     display: flex;
@@ -64,7 +64,7 @@ input::placeholder{
     color: rgb(56, 54, 54);
 }
 
-.submitBtn{
+.carrersubmitBtn{
     /* width: fit-content; */
     width: 100px;
     border: none;
@@ -72,7 +72,7 @@ input::placeholder{
     padding-inline:1px;
    background-color:  orangered;
 }
-.submitBtn:hover{
+.carrersubmitBtn:hover{
     cursor: pointer;
     background-color: rgb(228, 141, 110);
 }

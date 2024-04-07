@@ -18,8 +18,8 @@ function Navbar() {
         <div className='down'>
           <Link to={'/'} className='link'>Home</Link>
           <Link to={'/courses'} className='link'>Courses</Link>
-          <Link to={'/jobportal'} className='link'> Job Portal</Link>
-          <Link to={'/experience'} className='link'>Experience Portal</Link>
+          <Link to={'/playground'} className='link'> Playground</Link>
+          <Link to={'/aitutor'} className='link'>AI Tutor</Link>
           <Link to={'/career'} className='link'>Career</Link>
           <Link to={'/contactus'} className='link'>Contact Us</Link>
 

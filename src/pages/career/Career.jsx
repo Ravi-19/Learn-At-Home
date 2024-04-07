@@ -1,15 +1,16 @@
+import Footer from '../../components/footer/Footer';
 import './Career.css'
 
 function Career() {
   return (
     <div className="mainCarearContainer">
      <div className='careerPage'>
-    <div className="Left">
+    <div className="careerLeft">
      <h1 className='careerTittle'>Build Your career with us !</h1>
      
     </div>
 
-      <div className="Right">
+      <div className="careerRight">
         <div className="form">
           <label htmlFor="nameInput"> Enter Your Name</label>
           <input
@@ -39,10 +40,11 @@ function Career() {
             <option value="B.Ed">B.Ed</option>
             <option value="PHd">PHd</option>
           </select>
-          <input className='submitBtn' type="submit" />
+          <input className='carrersubmitBtn' type="submit" />
         </div>
       </div>
       </div>
+      <Footer/>
     </div>
   );
 }
