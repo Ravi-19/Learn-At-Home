@@ -6,7 +6,8 @@ function Hero() {
         <div className="hero">
             <div className="left">
                 <h2>Keep Learning And Growing ...</h2>
-                <p>reiciendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veritatis ea quos ex sit sint deleniti ducimus quam explicabo necessitatibus. ullam unde facilis repellat? Rem distinctio iure ducimus earum! Quibusdam, magnam perspiciatis. Autem alias eaque iure.</p>
+                <p>Learn At Home is the one-stop destination for your upskilling journey. Brace yourself to find the best job-ready courses and high-end technologies available in the sector. And if that weren't good enough, get the highest quality course content at the most affordable prices!
+What are we waiting for ? Let's push Start!</p>
                 <button><Link to='/courses' className='heroLink'>Explore Courses</Link></button>
 
             </div>

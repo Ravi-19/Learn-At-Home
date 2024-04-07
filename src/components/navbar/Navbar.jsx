@@ -1,5 +1,6 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/logo.png'
 
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
     <nav className='navBar'>
         <div className='up'>
             <h1 className='logo'>
-                Learn At Home 
+                <img width='70px' height='60px' src={logo}/>
             </h1>
             <input className='navInput' type='text' placeholder='search your course here ...'/>
             <button className='navBtn'>Login/Register</button>

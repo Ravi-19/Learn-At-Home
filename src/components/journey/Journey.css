@@ -1,0 +1,71 @@
+.journeyContainer{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.journeyLeft {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    background-color:rgb(77, 6, 113) ;
+    flex: 1;
+}
+.firstImg{
+    display: flex ; 
+    gap: 20px;
+}
+
+.journeyLeft p {
+    color: orange;
+}
+.journeyLeft button,p{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border: none;
+    border-radius: 7px;
+}
+
+.journeyLeft button:hover , p:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.journeyRight {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+.journeyRight img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 43%;
+    top: 20%;
+    
+   
+}

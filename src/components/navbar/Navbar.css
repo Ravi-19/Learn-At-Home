@@ -7,7 +7,7 @@
     align-items: center;
     width: 85vw;
     margin:0 auto ;
-    padding: 10px;
+    padding-top: 10px;
 }
 .navInput{
     padding: 10px;
@@ -43,7 +43,7 @@
     justify-content: space-between;
     width: 85vw;
     margin:0 auto ;
-    padding: 10px;
+    padding: 5px;
     position: relative;
    
 }
