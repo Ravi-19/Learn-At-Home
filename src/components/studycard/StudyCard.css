@@ -1,0 +1,80 @@
+.mainContainer{
+    width: 100%;
+    margin-block: 40px;
+}
+.coursePagesContainer{
+    width: 85%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.course-Page{
+    width: 100%;
+    
+    border: 1px solid black;
+    /* border: none; */
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+   
+    overflow: hidden;
+
+}
+
+.courseImage,img{
+    width: 100%;
+}
+img{
+    /* width: 100px; */
+    border-radius: 14px;
+}
+
+.courseDetails{
+    padding: 15px;
+    margin-block: 7px ;
+}
+.btns{
+    display: flex;
+    
+}
+.courseEnrollBtns{ 
+ width: 50%;
+ padding: 12px;
+ /* border-radius: 14px; */
+ border: none;
+ gap: 5px;
+ color: white;
+ background-color: orangered;
+ font-size: 1rem;
+}
+
+.courseEnroll{
+    text-align: center;
+    
+}
+.price{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+ h3{
+    font-size: 2rem;
+    color: rgb(79, 77, 77);
+}
+h4{
+    font-size: 1rem;
+    color: rgb(79, 77, 77);
+
+}
+/* .courseEnroll{
+    width: 100%;
+} */
+.details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+}
