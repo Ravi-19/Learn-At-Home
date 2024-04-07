@@ -9,11 +9,11 @@ function Navbar() {
   return (
     <nav className='navBar'>
         <div className='up' >
-            <div className='logo' onClick={()=>navigate('/')}>
+            <div className='logo' onClick={()=> navigate('/')}>
                 <img width='70px' height='60px' src={logo}/>
             </div>
             <input className='navInput' type='text' placeholder='search your course here ...'/>
-            <button className='navBtn'>Login/Register</button>
+            <button className='navBtn' onClick={()=>navigate('/login')}>Login/Register</button>
         </div>
         <div className='down'>
           <Link to={'/'} className='link'>Home</Link>

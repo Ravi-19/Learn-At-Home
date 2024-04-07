@@ -7,13 +7,18 @@ import JobPortal from './pages/jobportal/JobPortal';
 import Experience from './pages/experience/Experience';
 import Career from './pages/career/Career';
 import Contact from './pages/conactus/Contact';
+import Login from './pages/login/Login';
+import Register from './pages/register/Register';
+
 
 function App() {
   return (
-    <>
+    <div style={{position:'relative'}}>
     <Navbar/>
     <Routes>
       <Route path='/'  element={<Home/>}/>
+      <Route path='/login' element={<Login/>} />
+      <Route path='/signup' element={<Register/>}/> 
       <Route path='/courses'  element={<Courses/>}/>
       <Route path='/jobportal'  element={<JobPortal/>}/>
       <Route path='/experience'  element={<Experience/>}/>
@@ -22,7 +27,7 @@ function App() {
       
       
     </Routes>
-    </>
+    </div>
   )
 }
 
