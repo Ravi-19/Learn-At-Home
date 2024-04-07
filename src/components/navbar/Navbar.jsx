@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <nav className='navBar'>
         <div className='up'>
-            <h1 className='logo'>
+            <div className='logo'>
                 <img width='70px' height='60px' src={logo}/>
-            </h1>
+            </div>
             <input className='navInput' type='text' placeholder='search your course here ...'/>
             <button className='navBtn'>Login/Register</button>
         </div>
