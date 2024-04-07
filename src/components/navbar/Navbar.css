@@ -9,6 +9,9 @@
     margin:0 auto ;
     padding-top: 10px;
 }
+.logo{
+    cursor: pointer;
+}
 .navInput{
     padding: 10px;
     border: none;

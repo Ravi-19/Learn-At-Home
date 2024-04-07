@@ -1,13 +1,15 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logo.png'
+import { useNavigate } from 'react-router-dom';
 
 
 function Navbar() {
+  const navigate = useNavigate() ; 
   return (
     <nav className='navBar'>
-        <div className='up'>
-            <div className='logo'>
+        <div className='up' >
+            <div className='logo' onClick={()=>navigate('/')}>
                 <img width='70px' height='60px' src={logo}/>
             </div>
             <input className='navInput' type='text' placeholder='search your course here ...'/>
